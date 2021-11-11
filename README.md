@@ -1,10 +1,10 @@
 # ReactRouter
-# Responsive NavBar
-# Responive SideMenuBar using @media Query
-# Usefetch component for fetching Fake API data
-# Running JSON Server to access the JASON data
-# Router, BrowseRouter, Switch, Route component
-# Two LoadingAnimation component
+Responsive NavBar
+Responive SideMenuBar using @media Query
+Usefetch component for fetching Fake API data
+Running JSON Server to access the JASON data
+Router, BrowseRouter, Switch, Route component
+Two LoadingAnimation component
 
 
 # Required dependencies :
