@@ -1,0 +1,87 @@
+nav {
+    display: flex;
+    margin: 0 auto 10px;
+    gap: 10px;
+    align-items: center;
+    background-color: rgb(32, 14, 43);
+}
+
+nav h1 {
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 1rem;
+    margin-right: auto;
+}
+
+nav a {
+    color: whitesmoke;
+    padding: 4px 10px;
+    outline: none;
+    text-decoration: none;
+    display: inline;
+}
+
+nav a.active, .container a.active{
+    color: white;
+    background: rgb(88, 43, 172);
+    text-decoration: none;
+}
+
+.toggle-button{
+    color: white;
+    margin: 0 .5rem;
+    display: inline;
+} 
+.btn {
+    font-size: 1.5rem;
+    background-color:rgb(32, 14, 43);
+    color: white;
+    border: none;
+}
+
+.toggle-close-button{
+    float: right;
+    color: white;
+    margin: 1rem .5rem;
+    display: inline;
+} 
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(32, 14, 43);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+}
+
+.container{
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+
+@media (max-width: 800px) {
+    nav a{
+        display: none;
+    }
+}
+@media (min-width: 800px) {
+    .toggle-button{
+        display: none;
+    }
+    .toggle-close-button{
+        display: none;
+    }
+}
